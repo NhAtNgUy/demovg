@@ -1,23 +1,18 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Backend
+backend/__pycache__/
+backend/.venv/
+backend/credentials.json
+backend/*.db
+backend/audio_files/
+backend/test_audio/
+backend/vggish_manual/
+backend/yamnet_model/
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# General
+*.pyc
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
