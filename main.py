@@ -29,8 +29,8 @@ from scipy.stats import entropy
 
 # Khởi tạo Firebase Admin SDK
 if not firebase_admin._apps:
-    cred = credentials.Certificate('C:/Users/nguyen/Documents/Testo/kcms/credentials.json') 
-    firebase_admin.initialize_app(cred)
+    cred = credentials.Certificate('/etc/secrets/credentials.json')
+initialize_app(cred)
 db = firestore.client()
 
 current_year = datetime.now().year
