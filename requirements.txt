@@ -3,7 +3,6 @@ uvicorn
 google-api-python-client
 requests
 pandas
-sqlite3
 gspread
 oauth2client
 yt-dlp
